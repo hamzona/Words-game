@@ -1,0 +1,54 @@
+
+body
+{
+    display: block;
+    background-color: bisque;
+}
+
+
+.orange
+{
+    background-color: rgb(235, 209, 62)
+}
+
+
+.examples
+{
+    display: grid;
+    gap: 5px;
+}
+[data-letters]
+{
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    
+}
+
+.blue
+{
+    background-color: rgb(74, 74, 241);
+}
+.err
+{
+    color: red;
+}
+#next
+{
+    display: none;
+}
+
+#container
+{
+    display: block;
+    gap: 5px;
+}
+
+#blocks
+{
+    display: flex;
+    background-color: aqua;
+    border: solid 1px;
+    width: 100px;
+    height: 100px;
+}
